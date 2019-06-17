@@ -1,3 +1,28 @@
-body {
-    background-image: url ("assets/images/background");
-}
+.responsive {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    border: solid 5px red;
+    color: black;
+    font-style: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  #notes {
+
+    background-color: white;
+    border: solid 2px grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-style: bold;
+
+  }
+  
